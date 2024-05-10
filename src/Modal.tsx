@@ -1,8 +1,14 @@
-function Modal(props: any) {
+import { MouseEventHandler } from "react";
+
+interface PropsType {
+    hide: MouseEventHandler<HTMLButtonElement>
+}
+
+function Modal(props: PropsType) {
 
     let value: any = localStorage.getItem("items")
 
-    let items = JSON.parse(value)
+    let items = JSON.parse(value);
 
     return (
         <div className=" pl-[90px] pr-[40px] max-w-[1100px] gap-[40px] w-[100vw] justify-evenly overflow-y-auto h-[100vh] flex flex-wrap top-0 bg-[rgba(0_0_0.2)] bg-opacity-[0.9] z-20 absolute ">

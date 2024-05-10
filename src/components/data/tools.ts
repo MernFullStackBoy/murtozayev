@@ -26,12 +26,12 @@ import shop from "../../images/shop.png"
 import toe from "../../images/toe.png"
 /* Projects Images end */
 
-type Tools = {
+export type ToolsType = {
     title: string,
     src: string,
 }
 
-export const tools: Tools[] = [
+export const tools: ToolsType[] = [
     { title: "HTML", src: html },
     { title: "CSS", src: css },
     { title: "JavaScript", src: js },

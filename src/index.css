@@ -29,3 +29,9 @@
   border-radius: 10px;
   position: absolute;
 }
+
+.link.active {
+  background-color: blueviolet;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

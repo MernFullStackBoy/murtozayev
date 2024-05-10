@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import LeftMenu from "./LeftMenu"
 import Modal from "./Modal"
 import UpperMenu from "./UpperMenu"
